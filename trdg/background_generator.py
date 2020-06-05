@@ -59,6 +59,7 @@ def image(height, width, image_dir):
     """
         Create a background with a image
     """
+    print(image_dir)
     images = os.listdir(image_dir)
 
     if len(images) > 0:
